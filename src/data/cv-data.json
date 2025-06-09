@@ -1,0 +1,345 @@
+{
+    "personalInfo": {
+        "name": "Alejandro D. J.",
+        "lastName": "Gomez Florez",
+        "fullName": "Alejandro D. J. Gomez Florez",
+        "title": "Software Developer & Problem Solver",
+        "subtitle": "Full Stack Developer",
+        "location": "Your City, Country",
+        "profileImage": "/images/profile.jpg",
+        "heroDescription": "Passionate about creating innovative solutions and building amazing user experiences. I love to code, learn new technologies, and solve complex problems.",
+        "tagline": "Building the future, one line of code at a time"
+    },
+    "about": {
+        "shortBio": "I'm a passionate software developer with a strong background in full-stack development. I enjoy working with modern technologies and creating efficient, scalable solutions.",
+        "description": [
+            "My journey in technology started with curiosity and has evolved into a career focused on continuous learning and innovation. I believe in writing clean, maintainable code and delivering exceptional user experiences.",
+            "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.",
+            "I'm always looking for new challenges and opportunities to grow as a developer and make a positive impact through technology."
+        ],
+        "interests": [
+            "Open Source Development",
+            "Machine Learning",
+            "Mobile Development",
+            "Cloud Architecture",
+            "Tech Community"
+        ]
+    },
+    "contact": {
+        "email": "alejandro.gomez@example.com",
+        "phone": "+1 (555) 123-4567",
+        "location": "Your City, Country",
+        "website": "https://aldajo92.github.io",
+        "social": {
+            "linkedin": "https://linkedin.com/in/alejandrogomez",
+            "github": "https://github.com/aldajo92",
+            "twitter": "https://twitter.com/aldajo92",
+            "instagram": "https://instagram.com/aldajo92",
+            "portfolio": "https://aldajo92.github.io"
+        }
+    },
+    "skills": {
+        "frontend": [
+            "React",
+            "JavaScript",
+            "TypeScript",
+            "HTML/CSS",
+            "Vue.js",
+            "Angular",
+            "Tailwind CSS",
+            "Bootstrap",
+            "SASS/SCSS",
+            "Redux"
+        ],
+        "backend": [
+            "Node.js",
+            "Python",
+            "Express.js",
+            "Django",
+            "FastAPI",
+            "PostgreSQL",
+            "MongoDB",
+            "MySQL",
+            "REST APIs",
+            "GraphQL"
+        ],
+        "mobile": [
+            "React Native",
+            "Flutter",
+            "Android (Java/Kotlin)",
+            "iOS (Swift)",
+            "Ionic"
+        ],
+        "tools": [
+            "Git",
+            "Docker",
+            "AWS",
+            "CI/CD",
+            "Figma",
+            "Linux",
+            "Jenkins",
+            "Kubernetes",
+            "Firebase",
+            "Webpack"
+        ],
+        "languages": [
+            "JavaScript",
+            "TypeScript",
+            "Python",
+            "Java",
+            "Kotlin",
+            "Swift",
+            "C++",
+            "Go"
+        ]
+    },
+    "experience": [
+        {
+            "id": 1,
+            "position": "Senior Software Developer",
+            "company": "Tech Company Inc.",
+            "location": "City, Country",
+            "startDate": "2022-01",
+            "endDate": null,
+            "current": true,
+            "duration": "2022 - Present",
+            "description": "Lead development of web applications using React and Node.js. Collaborate with cross-functional teams to deliver high-quality software solutions. Mentor junior developers and contribute to architectural decisions.",
+            "achievements": [
+                "Led a team of 5 developers in building a microservices architecture",
+                "Improved application performance by 40% through optimization",
+                "Implemented CI/CD pipeline reducing deployment time by 60%"
+            ],
+            "technologies": [
+                "React",
+                "Node.js",
+                "AWS",
+                "Docker",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "id": 2,
+            "position": "Full Stack Developer",
+            "company": "Startup Solutions",
+            "location": "City, Country",
+            "startDate": "2020-03",
+            "endDate": "2021-12",
+            "current": false,
+            "duration": "2020 - 2022",
+            "description": "Developed and maintained multiple web applications using modern frameworks. Implemented responsive designs and optimized application performance. Worked closely with designers and product managers.",
+            "achievements": [
+                "Built 3 production applications from scratch",
+                "Reduced loading times by 50% through code optimization",
+                "Implemented responsive design increasing mobile users by 30%"
+            ],
+            "technologies": [
+                "React",
+                "Python",
+                "Django",
+                "MongoDB",
+                "Redis"
+            ]
+        },
+        {
+            "id": 3,
+            "position": "Junior Developer",
+            "company": "Digital Agency",
+            "location": "City, Country",
+            "startDate": "2019-06",
+            "endDate": "2020-02",
+            "current": false,
+            "duration": "2019 - 2020",
+            "description": "Started my professional journey building websites and learning industry best practices. Gained experience in version control, testing, and agile development methodologies.",
+            "achievements": [
+                "Delivered 15+ client websites on time and within budget",
+                "Learned and implemented modern development practices",
+                "Contributed to improving team development workflow"
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "PHP",
+                "WordPress"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "id": 1,
+            "degree": "Bachelor of Computer Science",
+            "institution": "University Name",
+            "location": "City, Country",
+            "startDate": "2015-09",
+            "endDate": "2019-05",
+            "gpa": "3.8/4.0",
+            "description": "Focused on software engineering, algorithms, and data structures. Participated in coding competitions and hackathons.",
+            "coursework": [
+                "Data Structures and Algorithms",
+                "Software Engineering",
+                "Database Systems",
+                "Web Development",
+                "Mobile App Development"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "title": "E-Commerce Platform",
+            "description": "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
+            "image": "/images/projects/ecommerce.jpg",
+            "technologies": [
+                "React",
+                "Node.js",
+                "PostgreSQL",
+                "Stripe",
+                "AWS"
+            ],
+            "features": [
+                "User authentication and authorization",
+                "Product catalog with search and filters",
+                "Shopping cart and checkout process",
+                "Payment integration with Stripe",
+                "Admin dashboard for inventory management"
+            ],
+            "links": {
+                "demo": "https://ecommerce-demo.example.com",
+                "github": "https://github.com/aldajo92/ecommerce-platform",
+                "case_study": "https://aldajo92.github.io/case-study/ecommerce"
+            },
+            "status": "completed",
+            "startDate": "2023-01",
+            "endDate": "2023-06"
+        },
+        {
+            "id": 2,
+            "title": "Task Management App",
+            "description": "A collaborative task management application with real-time updates. Built using React, Socket.io, and MongoDB with a focus on user experience.",
+            "image": "/images/projects/taskmanager.jpg",
+            "technologies": [
+                "React",
+                "Socket.io",
+                "MongoDB",
+                "Express.js",
+                "JWT"
+            ],
+            "features": [
+                "Real-time collaboration",
+                "Drag and drop task management",
+                "Team workspaces",
+                "File attachments",
+                "Progress tracking and analytics"
+            ],
+            "links": {
+                "demo": "https://taskmanager-demo.example.com",
+                "github": "https://github.com/aldajo92/task-manager",
+                "case_study": null
+            },
+            "status": "completed",
+            "startDate": "2022-08",
+            "endDate": "2022-12"
+        },
+        {
+            "id": 3,
+            "title": "Weather Dashboard",
+            "description": "A responsive weather dashboard that displays current conditions and forecasts. Integrated with multiple weather APIs and features location-based services.",
+            "image": "/images/projects/weather.jpg",
+            "technologies": [
+                "React",
+                "API Integration",
+                "Chart.js",
+                "Geolocation"
+            ],
+            "features": [
+                "Current weather conditions",
+                "5-day weather forecast",
+                "Interactive weather maps",
+                "Location-based weather data",
+                "Historical weather data visualization"
+            ],
+            "links": {
+                "demo": "https://weather-dashboard.example.com",
+                "github": "https://github.com/aldajo92/weather-dashboard",
+                "case_study": null
+            },
+            "status": "completed",
+            "startDate": "2022-03",
+            "endDate": "2022-05"
+        }
+    ],
+    "certifications": [
+        {
+            "id": 1,
+            "name": "AWS Certified Solutions Architect",
+            "issuer": "Amazon Web Services",
+            "date": "2023-08",
+            "credentialId": "AWS-SAA-123456",
+            "link": "https://aws.amazon.com/certification/",
+            "image": "/images/certifications/aws-saa.png"
+        },
+        {
+            "id": 2,
+            "name": "React Developer Certification",
+            "issuer": "Meta",
+            "date": "2022-11",
+            "credentialId": "META-REACT-789012",
+            "link": "https://developers.facebook.com/academy/",
+            "image": "/images/certifications/react-meta.png"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "proficiency": "Native",
+            "level": "C2"
+        },
+        {
+            "language": "English",
+            "proficiency": "Fluent",
+            "level": "C1"
+        },
+        {
+            "language": "Portuguese",
+            "proficiency": "Intermediate",
+            "level": "B2"
+        }
+    ],
+    "achievements": [
+        {
+            "id": 1,
+            "title": "Best Innovation Award",
+            "organization": "Tech Company Inc.",
+            "date": "2023-12",
+            "description": "Recognized for developing an innovative solution that improved system efficiency by 45%"
+        },
+        {
+            "id": 2,
+            "title": "Hackathon Winner",
+            "organization": "Local Tech Community",
+            "date": "2022-09",
+            "description": "First place in 48-hour hackathon with a machine learning solution for healthcare"
+        }
+    ],
+    "volunteer": [
+        {
+            "id": 1,
+            "organization": "Code for Good",
+            "role": "Volunteer Developer",
+            "startDate": "2021-01",
+            "endDate": null,
+            "current": true,
+            "description": "Develop web applications for non-profit organizations to help them better serve their communities."
+        }
+    ],
+    "preferences": {
+        "theme": "dark",
+        "primaryColor": "#60a5fa",
+        "accentColor": "#a78bfa",
+        "showFullExperience": true,
+        "showEducation": true,
+        "showCertifications": true,
+        "showVolunteer": true,
+        "contactFormEnabled": true
+    }
+}

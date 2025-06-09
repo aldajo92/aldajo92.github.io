@@ -321,6 +321,46 @@ html {
   line-height: 1.6;
 }
 
+/* Experience Section - Additional Styles */
+.achievements-list {
+  list-style: none;
+  margin: 1rem 0;
+  padding-left: 0;
+}
+
+.achievements-list li {
+  position: relative;
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
+.achievements-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #60a5fa;
+  font-weight: bold;
+}
+
+.job-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.job-tech {
+  background: rgba(96, 165, 250, 0.2);
+  color: #60a5fa;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(96, 165, 250, 0.3);
+}
+
 /* Projects Section */
 .projects-grid {
   display: grid;
@@ -387,6 +427,24 @@ html {
   color: #ffffff;
   background: rgba(96, 165, 250, 0.2);
   border-color: #60a5fa;
+}
+
+/* Projects Section - Additional Styles */
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.project-tech {
+  background: rgba(167, 139, 250, 0.2);
+  color: #a78bfa;
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid rgba(167, 139, 250, 0.3);
 }
 
 /* Contact Section */
