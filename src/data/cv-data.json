@@ -6,7 +6,7 @@
         "title": "Software Developer & Problem Solver",
         "subtitle": "Full Stack Developer",
         "location": "Your City, Country",
-        "profileImage": "https://via.placeholder.com/300x300/4F46E5/FFFFFF?text=Profile+Photo",
+        "profileImage": "https://dummyimage.com/300x300/4F46E5/FFFFFF&text=Profile",
         "heroDescription": "Passionate about creating innovative solutions and building amazing user experiences. I love to code, learn new technologies, and solve complex problems.",
         "tagline": "Building the future, one line of code at a time"
     },
@@ -276,7 +276,7 @@
             "date": "2023-08",
             "credentialId": "AWS-SAA-123456",
             "link": "https://aws.amazon.com/certification/",
-            "image": "https://via.placeholder.com/150x100/FF9900/FFFFFF?text=AWS+SAA"
+            "image": "https://dummyimage.com/150x100/FF9900/FFFFFF&text=AWS"
         },
         {
             "id": 2,
@@ -285,7 +285,7 @@
             "date": "2022-11",
             "credentialId": "META-REACT-789012",
             "link": "https://developers.facebook.com/academy/",
-            "image": "https://via.placeholder.com/150x100/1877F2/FFFFFF?text=React+Meta"
+            "image": "https://dummyimage.com/150x100/1877F2/FFFFFF&text=React"
         }
     ],
     "languages": [
