@@ -49,7 +49,7 @@ function App() {
               alt={`${personalInfo.fullName} Profile`}
               className="profile-image"
               onError={(e) => {
-                e.target.src = "/api/placeholder/300/300";
+                e.target.src = "https://via.placeholder.com/300x300/4F46E5/FFFFFF?text=Profile";
               }}
             />
           </div>
@@ -132,7 +132,7 @@ function App() {
                 src={project.image}
                 alt={project.title}
                 onError={(e) => {
-                  e.target.src = "/api/placeholder/400/200";
+                  e.target.src = "https://picsum.photos/400/200?random=99";
                 }}
               />
               <div className="project-content">

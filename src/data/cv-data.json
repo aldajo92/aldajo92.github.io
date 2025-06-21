@@ -6,7 +6,7 @@
         "title": "Software Developer & Problem Solver",
         "subtitle": "Full Stack Developer",
         "location": "Your City, Country",
-        "profileImage": "/images/profile.jpg",
+        "profileImage": "https://via.placeholder.com/300x300/4F46E5/FFFFFF?text=Profile+Photo",
         "heroDescription": "Passionate about creating innovative solutions and building amazing user experiences. I love to code, learn new technologies, and solve complex problems.",
         "tagline": "Building the future, one line of code at a time"
     },
@@ -188,7 +188,7 @@
             "id": 1,
             "title": "E-Commerce Platform",
             "description": "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-            "image": "/images/projects/ecommerce.jpg",
+            "image": "https://picsum.photos/400/200?random=1",
             "technologies": [
                 "React",
                 "Node.js",
@@ -216,7 +216,7 @@
             "id": 2,
             "title": "Task Management App",
             "description": "A collaborative task management application with real-time updates. Built using React, Socket.io, and MongoDB with a focus on user experience.",
-            "image": "/images/projects/taskmanager.jpg",
+            "image": "https://picsum.photos/400/200?random=2",
             "technologies": [
                 "React",
                 "Socket.io",
@@ -244,7 +244,7 @@
             "id": 3,
             "title": "Weather Dashboard",
             "description": "A responsive weather dashboard that displays current conditions and forecasts. Integrated with multiple weather APIs and features location-based services.",
-            "image": "/images/projects/weather.jpg",
+            "image": "https://picsum.photos/400/200?random=3",
             "technologies": [
                 "React",
                 "API Integration",
@@ -276,7 +276,7 @@
             "date": "2023-08",
             "credentialId": "AWS-SAA-123456",
             "link": "https://aws.amazon.com/certification/",
-            "image": "/images/certifications/aws-saa.png"
+            "image": "https://via.placeholder.com/150x100/FF9900/FFFFFF?text=AWS+SAA"
         },
         {
             "id": 2,
@@ -285,7 +285,7 @@
             "date": "2022-11",
             "credentialId": "META-REACT-789012",
             "link": "https://developers.facebook.com/academy/",
-            "image": "/images/certifications/react-meta.png"
+            "image": "https://via.placeholder.com/150x100/1877F2/FFFFFF?text=React+Meta"
         }
     ],
     "languages": [
