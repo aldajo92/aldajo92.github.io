@@ -192,17 +192,40 @@ html {
   margin-bottom: 1.5rem;
 }
 
-.about-image {
-  text-align: center;
+.about-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.profile-image {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-  border: 4px solid rgba(96, 165, 250, 0.3);
+.about-sidebar h3 {
+  color: #60a5fa;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.about-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-sidebar li {
+  color: #cbd5e1;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+  font-size: 0.95rem;
+}
+
+.about-sidebar li:last-child {
+  border-bottom: none;
+}
+
+.about-languages,
+.about-interests {
+  background: rgba(30, 41, 59, 0.8);
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.1);
 }
 
 /* Skills Section */
@@ -359,6 +382,92 @@ html {
   font-size: 0.8rem;
   font-weight: 500;
   border: 1px solid rgba(96, 165, 250, 0.3);
+}
+
+/* Education & Certifications Section */
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+
+.education-column h3 {
+  color: #60a5fa;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+}
+
+.education-item {
+  background: rgba(30, 41, 59, 0.8);
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.education-item:hover {
+  transform: translateX(5px);
+}
+
+.education-item h4 {
+  color: #e2e8f0;
+  font-size: 1.15rem;
+  margin-bottom: 0.3rem;
+}
+
+.education-item .institution {
+  color: #94a3b8;
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.education-item .edu-location {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.education-item .edu-dates {
+  color: #64748b;
+  font-size: 0.85rem;
+  margin-bottom: 0.75rem;
+}
+
+.education-item p {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.certifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.certification-item {
+  background: rgba(30, 41, 59, 0.8);
+  padding: 1rem 1.25rem;
+  border-radius: 10px;
+  border: 1px solid rgba(148, 163, 184, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.certification-item:hover {
+  transform: translateX(5px);
+}
+
+.certification-item .cert-name {
+  color: #e2e8f0;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.certification-item .cert-meta {
+  color: #64748b;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
 }
 
 /* Projects Section */
@@ -549,6 +658,10 @@ html {
 
   .experience-item {
     margin-left: 1rem;
+  }
+
+  .education-grid {
+    grid-template-columns: 1fr;
   }
 
   .contact-links {

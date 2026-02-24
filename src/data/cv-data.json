@@ -1,337 +1,605 @@
 {
     "personalInfo": {
-        "name": "Alejandro D. J.",
-        "lastName": "Gomez Florez",
-        "fullName": "Alejandro D. J. Gomez Florez",
-        "title": "Software Developer & Problem Solver",
-        "subtitle": "Full Stack Developer",
-        "location": "Your City, Country",
-        "profileImage": "https://dummyimage.com/300x300/4F46E5/FFFFFF&text=Profile",
-        "heroDescription": "Passionate about creating innovative solutions and building amazing user experiences. I love to code, learn new technologies, and solve complex problems.",
-        "tagline": "Building the future, one line of code at a time"
+        "name": "Alejandro D.J.",
+        "lastName": "Gómez Flórez",
+        "fullName": "Alejandro D.J. Gómez Flórez",
+        "title": "Robotics & Software Engineer",
+        "subtitle": "Hardware Integration | Embedded Systems | Mobile Development",
+        "location": "Abu Dhabi, UAE",
+        "profileImage": "https://dummyimage.com/300x300/4F46E5/FFFFFF&text=AG",
+        "heroDescription": "As an engineer, I am deeply passionate about all aspects of low level programming and take great pleasure in integrating software with hardware components.",
+        "tagline": "Building the bridge between software and hardware"
     },
     "about": {
-        "shortBio": "I'm a passionate software developer with a strong background in full-stack development. I enjoy working with modern technologies and creating efficient, scalable solutions.",
+        "shortBio": "I'm a robotics and software engineer with extensive experience in hardware integration, embedded systems, computer vision, and mobile development across industries including autonomous vehicles, sports tech, entertainment, and healthcare.",
         "description": [
-            "My journey in technology started with curiosity and has evolved into a career focused on continuous learning and innovation. I believe in writing clean, maintainable code and delivering exceptional user experiences.",
-            "When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.",
-            "I'm always looking for new challenges and opportunities to grow as a developer and make a positive impact through technology."
+            "My career spans over 10 years of building software that interacts with the physical world — from self-driving car systems and sports analytics platforms to theme park robots and IoT devices. I thrive at the intersection of low-level systems programming and high-level application development.",
+            "I've worked with technologies ranging from ROS/ROS2 and Jetson boards to Android and React, always focused on delivering robust, production-grade solutions. I'm also passionate about teaching and have served as an instructor for React and GraphQL.",
+            "When I'm not engineering, I enjoy working on personal robotics projects, contributing to open-source tools, and exploring new ways to push the boundaries of what's possible with hardware and software integration."
         ],
         "interests": [
-            "Open Source Development",
-            "Machine Learning",
+            "Robotics & Autonomous Systems",
+            "Computer Vision",
+            "Embedded Systems",
             "Mobile Development",
-            "Cloud Architecture",
-            "Tech Community"
+            "Open Source"
         ]
     },
     "contact": {
-        "email": "alejandro.gomez@example.com",
-        "phone": "+1 (555) 123-4567",
-        "location": "Your City, Country",
+        "email": "alejodiscovery20@gmail.com",
+        "phone": "+57 3006338327",
+        "location": "Abu Dhabi, UAE",
         "website": "https://aldajo92.github.io",
         "social": {
-            "linkedin": "https://linkedin.com/in/alejandrogomez",
+            "linkedin": "https://linkedin.com/in/aldajo92",
             "github": "https://github.com/aldajo92",
-            "twitter": "https://twitter.com/aldajo92",
-            "instagram": "https://instagram.com/aldajo92",
+            "twitter": null,
+            "instagram": null,
             "portfolio": "https://aldajo92.github.io"
         }
     },
     "skills": {
-        "frontend": [
-            "React",
-            "JavaScript",
-            "TypeScript",
-            "HTML/CSS",
-            "Vue.js",
-            "Angular",
-            "Tailwind CSS",
-            "Bootstrap",
-            "SASS/SCSS",
-            "Redux"
-        ],
-        "backend": [
-            "Node.js",
-            "Python",
-            "Express.js",
-            "Django",
-            "FastAPI",
-            "PostgreSQL",
-            "MongoDB",
-            "MySQL",
-            "REST APIs",
-            "GraphQL"
-        ],
         "mobile": [
-            "React Native",
-            "Flutter",
-            "Android (Java/Kotlin)",
-            "iOS (Swift)",
-            "Ionic"
-        ],
-        "tools": [
-            "Git",
-            "Docker",
-            "AWS",
-            "CI/CD",
-            "Figma",
-            "Linux",
-            "Jenkins",
-            "Kubernetes",
-            "Firebase",
-            "Webpack"
-        ],
-        "languages": [
-            "JavaScript",
-            "TypeScript",
-            "Python",
+            "Android",
             "Java",
             "Kotlin",
             "Swift",
-            "C++",
-            "Go"
+            "Jetpack Compose"
+        ],
+        "systems": [
+            "C/C++",
+            "Rust",
+            "CMake",
+            "Bazel",
+            "Linux"
+        ],
+        "robotics": [
+            "ROS/ROS2",
+            "Gazebo",
+            "OpenCV",
+            "TensorFlow/Keras",
+            "Nav2"
+        ],
+        "web": [
+            "React",
+            "Node.js",
+            "GraphQL",
+            "MongoDB",
+            "SQL"
+        ],
+        "tools": [
+            "Docker",
+            "Git",
+            "Azure CI/CD",
+            "Python",
+            "GStreamer"
         ]
     },
     "experience": [
         {
             "id": 1,
-            "position": "Senior Software Developer",
-            "company": "Tech Company Inc.",
-            "location": "City, Country",
-            "startDate": "2022-01",
+            "position": "Senior Robotics Engineer",
+            "company": "SteerAI",
+            "location": "Abu Dhabi",
+            "startDate": "2026-01",
             "endDate": null,
             "current": true,
-            "duration": "2022 - Present",
-            "description": "Lead development of web applications using React and Node.js. Collaborate with cross-functional teams to deliver high-quality software solutions. Mentor junior developers and contribute to architectural decisions.",
+            "duration": "Jan 2026 - Present",
+            "description": "Hardware integration for the self-driving cars industry.",
             "achievements": [
-                "Led a team of 5 developers in building a microservices architecture",
-                "Improved application performance by 40% through optimization",
-                "Implemented CI/CD pipeline reducing deployment time by 60%"
+                "Hardware integration for the self-driving cars industry"
             ],
             "technologies": [
-                "React",
-                "Node.js",
-                "AWS",
-                "Docker",
-                "PostgreSQL"
+                "C++",
+                "Android",
+                "Linux"
             ]
         },
         {
             "id": 2,
-            "position": "Full Stack Developer",
-            "company": "Startup Solutions",
-            "location": "City, Country",
-            "startDate": "2020-03",
-            "endDate": "2021-12",
-            "current": false,
-            "duration": "2020 - 2022",
-            "description": "Developed and maintained multiple web applications using modern frameworks. Implemented responsive designs and optimized application performance. Worked closely with designers and product managers.",
+            "position": "Hardware Engineer",
+            "company": "NBA Clippers",
+            "location": "Los Angeles, CA",
+            "startDate": "2025-07",
+            "endDate": null,
+            "current": true,
+            "duration": "Jul 2025 - Present",
+            "description": "Hardware integration with Jetson Nano, cameras and vision models with GStreamer for sports analytics and player tracking systems.",
             "achievements": [
-                "Built 3 production applications from scratch",
-                "Reduced loading times by 50% through code optimization",
-                "Implemented responsive design increasing mobile users by 30%"
+                "YOLOv8 integration for player tracking",
+                "OpenPose implementation for pose estimation",
+                "EfficientNet-based classifiers for anomaly detection in crowd behavior and player activity",
+                "C/C++, CMake, Bazel for driver development",
+                "Protocol communication with ZMQ",
+                "Docker configuration for custom .deb artifacts and model deployments for CI/CD with Azure"
             ],
             "technologies": [
-                "React",
-                "Python",
-                "Django",
-                "MongoDB",
-                "Redis"
+                "C++",
+                "Android",
+                "Nvidia Jetson",
+                "Linux",
+                "GStreamer",
+                "Docker",
+                "Azure"
             ]
         },
         {
             "id": 3,
-            "position": "Junior Developer",
-            "company": "Digital Agency",
-            "location": "City, Country",
-            "startDate": "2019-06",
-            "endDate": "2020-02",
+            "position": "C++ Engineer (Contractor)",
+            "company": "Zoox",
+            "location": "Foster City, CA",
+            "startDate": "2024-10",
+            "endDate": "2025-07",
             "current": false,
-            "duration": "2019 - 2020",
-            "description": "Started my professional journey building websites and learning industry best practices. Gained experience in version control, testing, and agile development methodologies.",
+            "duration": "Oct 2024 - Jul 2025",
+            "description": "Worked on the autonomous vehicle platform, including Android driver compilation, custom UI development, and ride state machine testing.",
             "achievements": [
-                "Delivered 15+ client websites on time and within budget",
-                "Learned and implemented modern development practices",
-                "Contributed to improving team development workflow"
+                "Custom compilation of Android drivers using AOSP",
+                "Custom UI views with OpenGL, SurfaceView and Compose",
+                "Custom DDS implementation via NDK to interact with Compose UI",
+                "Bug fixes and support for the Human Controller Interaction",
+                "Created test scenarios for the Zoox Ride State Machine using gtest, gmock, bazel, and protobufs"
             ],
             "technologies": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "PHP",
-                "WordPress"
+                "C++",
+                "Python",
+                "Bazel",
+                "Protobuf",
+                "Android",
+                "OpenGL",
+                "AOSP"
+            ]
+        },
+        {
+            "id": 4,
+            "position": "ML Robotics Engineer",
+            "company": "Walt Disney",
+            "location": "Orlando, FL",
+            "startDate": "2023-05",
+            "endDate": "2024-10",
+            "current": false,
+            "duration": "May 2023 - Oct 2024",
+            "description": "Developed robotics systems for Disney theme parks, including navigation, computer vision, and hardware driver integration.",
+            "achievements": [
+                "Integrated a custom Android app to capture signals and measurements in robots",
+                "Implemented navigation system with novel position correction using Aruco Markers for AMCL algorithm",
+                "Emulated robots in Gazebo and wrapped behaviors with Docker",
+                "Robot URDF modeling and integration with Nav2",
+                "Driver development for I2C and Serial protocols via DDS messages",
+                "Processed images with Jetson Orin Nano using ZED Cameras"
+            ],
+            "technologies": [
+                "Android",
+                "Python",
+                "C++",
+                "ROS",
+                "ROS2",
+                "Docker",
+                "Gazebo",
+                "Jetson"
+            ]
+        },
+        {
+            "id": 5,
+            "position": "Architect Android Developer (Contractor)",
+            "company": "Memefon",
+            "location": "Remote",
+            "startDate": "2023-03",
+            "endDate": "2023-10",
+            "current": false,
+            "duration": "Mar 2023 - Oct 2023",
+            "description": "Led mobile architecture and cross-platform development for video communication app.",
+            "achievements": [
+                "Defined app architecture to simplify UI features using the MVVM approach",
+                "Custom video rendering and processing using Android NDK and Swift/C++ for iOS"
+            ],
+            "technologies": [
+                "Android",
+                "Swift",
+                "Kotlin",
+                "Compose Multiplatform"
+            ]
+        },
+        {
+            "id": 6,
+            "position": "Android Developer",
+            "company": "Wizeline",
+            "location": "Remote",
+            "startDate": "2022-10",
+            "endDate": "2023-05",
+            "current": false,
+            "duration": "Oct 2022 - May 2023",
+            "description": "Mobile and web development for major media and sports clients.",
+            "achievements": [
+                "Refactored code to maximize app performance for MLB",
+                "Maintained and bug fixed the USA TODAY web app"
+            ],
+            "technologies": [
+                "Android",
+                "Java",
+                "Kotlin",
+                "Flutter",
+                "React"
+            ]
+        },
+        {
+            "id": 7,
+            "position": "ROS Engineer",
+            "company": "Universidad Nacional De Colombia",
+            "location": "Medellín, Colombia",
+            "startDate": "2021-10",
+            "endDate": "2022-09",
+            "current": false,
+            "duration": "Oct 2021 - Sep 2022",
+            "description": "Built robotics platforms with Docker-based orchestration and remote debugging capabilities.",
+            "achievements": [
+                "Video streaming and remote control with an Android app for debugging purposes",
+                "Separated robot functionalities into Docker containers and orchestrated them with Docker Compose",
+                "Created a Robot Platform to develop custom applications with Python scripts"
+            ],
+            "technologies": [
+                "ROS",
+                "Python",
+                "C++",
+                "Docker"
+            ]
+        },
+        {
+            "id": 8,
+            "position": "Android Developer",
+            "company": "All.Health (Healthcare)",
+            "location": "Remote",
+            "startDate": "2021-10",
+            "endDate": "2022-09",
+            "current": false,
+            "duration": "Oct 2021 - Sep 2022",
+            "description": "Built healthcare applications using modern Android architecture and mentored new developers.",
+            "achievements": [
+                "Assisted with interviewing and training processes for new Android developers",
+                "Structured the new app with clean architecture principles and Compose UI library"
+            ],
+            "technologies": [
+                "Android",
+                "Java",
+                "Kotlin",
+                "Jetpack Compose"
+            ]
+        },
+        {
+            "id": 9,
+            "position": "React and GraphQL Instructor",
+            "company": "Dev.f",
+            "location": "Remote",
+            "startDate": "2019-03",
+            "endDate": "2021-10",
+            "current": false,
+            "duration": "Mar 2019 - Oct 2021",
+            "description": "Taught full-stack web development covering APIs, databases, and modern frontend frameworks.",
+            "achievements": [
+                "Taught API development with Node.js and Express",
+                "Managed projects with Git and team collaboration workflows",
+                "Taught database management with MongoDB, Mongoose, and NodeJS",
+                "Covered GraphQL API architecture and maintenance",
+                "Taught UI development with ReactJS and GraphQL using Apollo library"
+            ],
+            "technologies": [
+                "React",
+                "Node.js",
+                "GraphQL",
+                "MongoDB",
+                "Express"
+            ]
+        },
+        {
+            "id": 10,
+            "position": "Android Developer",
+            "company": "Globant @Disney",
+            "location": "Remote",
+            "startDate": "2019-03",
+            "endDate": "2021-10",
+            "current": false,
+            "duration": "Mar 2019 - Oct 2021",
+            "description": "Maintained and improved Android apps for Disney theme parks.",
+            "achievements": [
+                "Improved code to maximize app performance",
+                "Maintained and improved Android apps for Disney parks: Walt Disney World, Disneyland Resort"
+            ],
+            "technologies": [
+                "Android",
+                "Java",
+                "Kotlin"
+            ]
+        },
+        {
+            "id": 11,
+            "position": "Android Developer",
+            "company": "Rappi",
+            "location": "Bogotá, Colombia",
+            "startDate": "2017-02",
+            "endDate": "2019-02",
+            "current": false,
+            "duration": "Feb 2017 - Feb 2019",
+            "description": "Served as technical leader for the insurance and pays-bills section of the Rappi user app.",
+            "achievements": [
+                "Technical leader in the insurance and pays-bills section of the Rappi user app",
+                "Participated in migrating all existing projects and modules from Java to Kotlin",
+                "Implemented features and fixed bugs in the delivery personnel and user apps"
+            ],
+            "technologies": [
+                "Android",
+                "Kotlin",
+                "Java"
+            ]
+        },
+        {
+            "id": 12,
+            "position": "Software Engineering Junior",
+            "company": "Huge Inc @Zelle",
+            "location": "Medellín, Colombia",
+            "startDate": "2016-04",
+            "endDate": "2017-02",
+            "current": false,
+            "duration": "Apr 2016 - Feb 2017",
+            "description": "Developed IoT projects and mobile applications for fintech.",
+            "achievements": [
+                "Designed a Smart Clock and a Smart Shower as IoT office projects",
+                "Implemented features and fixed bugs for the Zelle app"
+            ],
+            "technologies": [
+                "Python",
+                "Node.js",
+                "C++",
+                "Java",
+                "Android"
+            ]
+        },
+        {
+            "id": 13,
+            "position": "Software Engineer",
+            "company": "Ubidots",
+            "location": "Medellín, Colombia",
+            "startDate": "2015-01",
+            "endDate": "2015-06",
+            "current": false,
+            "duration": "Jan 2015 - Jun 2015",
+            "description": "Developed IoT hardware and educational content for the Ubidots platform.",
+            "achievements": [
+                "Designed a portable weather station with a 3G module integrated with the Ubidots platform",
+                "Created tutorials for connecting Arduino devices to the Ubidots platform"
+            ],
+            "technologies": [
+                "Python",
+                "C++",
+                "Arduino"
             ]
         }
     ],
     "education": [
         {
             "id": 1,
-            "degree": "Bachelor of Computer Science",
-            "institution": "University Name",
-            "location": "City, Country",
-            "startDate": "2015-09",
-            "endDate": "2019-05",
-            "gpa": "3.8/4.0",
-            "description": "Focused on software engineering, algorithms, and data structures. Participated in coding competitions and hackathons.",
-            "coursework": [
-                "Data Structures and Algorithms",
-                "Software Engineering",
-                "Database Systems",
-                "Web Development",
-                "Mobile App Development"
-            ]
+            "degree": "Control Engineering",
+            "institution": "Universidad Nacional de Colombia",
+            "location": "Medellín, Colombia",
+            "startDate": "2013",
+            "endDate": "2021",
+            "description": "Bachelor's degree focused on control systems, signal processing, and engineering fundamentals."
+        },
+        {
+            "id": 2,
+            "degree": "Robotics Summer School",
+            "institution": "ETH Zürich",
+            "location": "Zürich, Switzerland",
+            "startDate": "2024",
+            "endDate": "2024",
+            "description": "Intensive program covering C++, Computer Vision, and Robotics Perception."
         }
     ],
     "projects": [
         {
             "id": 1,
-            "title": "E-Commerce Platform",
-            "description": "A full-stack e-commerce solution built with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-            "image": "https://picsum.photos/400/200?random=1",
+            "title": "XY Parametric Equations",
+            "description": "Android app to illustrate parametric equations with animations. Currently used by teachers to explain parametric equations. Available on the Google Play Store.",
+            "image": "https://dummyimage.com/400x200/4F46E5/FFFFFF&text=XY+Parametric",
             "technologies": [
-                "React",
-                "Node.js",
-                "PostgreSQL",
-                "Stripe",
-                "AWS"
+                "Kotlin",
+                "Android"
             ],
             "features": [
-                "User authentication and authorization",
-                "Product catalog with search and filters",
-                "Shopping cart and checkout process",
-                "Payment integration with Stripe",
-                "Admin dashboard for inventory management"
+                "Parametric equation visualization with animations",
+                "Educational tool for teachers and students",
+                "Available on Google Play Store"
             ],
             "links": {
-                "demo": "https://ecommerce-demo.example.com",
-                "github": "https://github.com/aldajo92/ecommerce-platform",
-                "case_study": "https://aldajo92.github.io/case-study/ecommerce"
+                "demo": "https://play.google.com/store",
+                "github": null,
+                "case_study": null
             },
             "status": "completed",
-            "startDate": "2023-01",
-            "endDate": "2023-06"
+            "startDate": null,
+            "endDate": null
         },
         {
             "id": 2,
-            "title": "Task Management App",
-            "description": "A collaborative task management application with real-time updates. Built using React, Socket.io, and MongoDB with a focus on user experience.",
-            "image": "https://picsum.photos/400/200?random=2",
+            "title": "Sauron Robot",
+            "description": "A physical robot that helps people navigate environments through VR using an Android App.",
+            "image": "https://dummyimage.com/400x200/4F46E5/FFFFFF&text=Sauron+Robot",
             "technologies": [
-                "React",
-                "Socket.io",
-                "MongoDB",
-                "Express.js",
-                "JWT"
+                "Android",
+                "Java",
+                "C++"
             ],
             "features": [
-                "Real-time collaboration",
-                "Drag and drop task management",
-                "Team workspaces",
-                "File attachments",
-                "Progress tracking and analytics"
+                "VR-based robot navigation",
+                "Android app for remote control",
+                "Physical hardware integration"
             ],
             "links": {
-                "demo": "https://taskmanager-demo.example.com",
-                "github": "https://github.com/aldajo92/task-manager",
+                "demo": "https://youtube.com/watch?v=MBMmZ8Tm_5c",
+                "github": null,
                 "case_study": null
             },
             "status": "completed",
-            "startDate": "2022-08",
-            "endDate": "2022-12"
+            "startDate": "2018",
+            "endDate": "2018"
         },
         {
             "id": 3,
-            "title": "Weather Dashboard",
-            "description": "A responsive weather dashboard that displays current conditions and forecasts. Integrated with multiple weather APIs and features location-based services.",
-            "image": "https://picsum.photos/400/200?random=3",
+            "title": "TVMaze App",
+            "description": "Boilerplate app using Android Compose library and Hilt for dependency injection.",
+            "image": "https://dummyimage.com/400x200/4F46E5/FFFFFF&text=TVMaze+App",
             "technologies": [
-                "React",
-                "API Integration",
-                "Chart.js",
-                "Geolocation"
+                "Kotlin",
+                "Android",
+                "Jetpack Compose",
+                "Hilt"
             ],
             "features": [
-                "Current weather conditions",
-                "5-day weather forecast",
-                "Interactive weather maps",
-                "Location-based weather data",
-                "Historical weather data visualization"
+                "Modern Android architecture showcase",
+                "Jetpack Compose UI",
+                "Hilt dependency injection"
             ],
             "links": {
-                "demo": "https://weather-dashboard.example.com",
-                "github": "https://github.com/aldajo92/weather-dashboard",
+                "demo": null,
+                "github": "https://github.com/aldajo92/AndroidKt_Compose_TVMaze",
                 "case_study": null
             },
             "status": "completed",
-            "startDate": "2022-03",
-            "endDate": "2022-05"
+            "startDate": null,
+            "endDate": null
+        },
+        {
+            "id": 4,
+            "title": "Docker and ROS2 UI",
+            "description": "Open source project for quick platform development with ROS2 and Gazebo via containers. Used for workshops, courses and presentations.",
+            "image": "https://dummyimage.com/400x200/4F46E5/FFFFFF&text=ROS2+Docker",
+            "technologies": [
+                "ROS2",
+                "Docker",
+                "Gazebo"
+            ],
+            "features": [
+                "Quick ROS2 development environment setup",
+                "Gazebo simulation integration",
+                "Docker containerized workflow",
+                "Used for workshops and courses"
+            ],
+            "links": {
+                "demo": null,
+                "github": "https://github.com/aldajo92/ROS2_Docker_UI",
+                "case_study": null
+            },
+            "status": "completed",
+            "startDate": null,
+            "endDate": null
+        },
+        {
+            "id": 5,
+            "title": "Waver Rover",
+            "description": "A tiny rover based on Waveshare Rover platform, with software made in ROS2, integrating localization, IMU, and cameras for custom navigation. Used to teach and promote ROS2.",
+            "image": "https://dummyimage.com/400x200/4F46E5/FFFFFF&text=Waver+Rover",
+            "technologies": [
+                "ROS2",
+                "Python",
+                "C++",
+                "IMU",
+                "Camera"
+            ],
+            "features": [
+                "ROS2-based navigation stack",
+                "Localization with IMU and cameras",
+                "Educational platform for ROS2",
+                "Waveshare Rover hardware platform"
+            ],
+            "links": {
+                "demo": null,
+                "github": "https://github.com/aldajo92/waver_doc",
+                "case_study": null
+            },
+            "status": "completed",
+            "startDate": null,
+            "endDate": null
         }
     ],
     "certifications": [
         {
             "id": 1,
-            "name": "AWS Certified Solutions Architect",
-            "issuer": "Amazon Web Services",
-            "date": "2023-08",
-            "credentialId": "AWS-SAA-123456",
-            "link": "https://aws.amazon.com/certification/",
-            "image": "https://dummyimage.com/150x100/FF9900/FFFFFF&text=AWS"
+            "name": "Machine Learning with Python",
+            "issuer": "MIT",
+            "date": "2024",
+            "credentialId": null,
+            "link": null
         },
         {
             "id": 2,
-            "name": "React Developer Certification",
-            "issuer": "Meta",
-            "date": "2022-11",
-            "credentialId": "META-REACT-789012",
-            "link": "https://developers.facebook.com/academy/",
-            "image": "https://dummyimage.com/150x100/1877F2/FFFFFF&text=React"
+            "name": "Rust Crash Course",
+            "issuer": "Udemy",
+            "date": "2025",
+            "credentialId": null,
+            "link": null
+        },
+        {
+            "id": 3,
+            "name": "C++ Development",
+            "issuer": "Udemy",
+            "date": "2021",
+            "credentialId": null,
+            "link": null
+        },
+        {
+            "id": 4,
+            "name": "Combinatorics and Probability",
+            "issuer": "Coursera",
+            "date": "2020",
+            "credentialId": null,
+            "link": null
+        },
+        {
+            "id": 5,
+            "name": "Android Development",
+            "issuer": "Udacity",
+            "date": "2019",
+            "credentialId": null,
+            "link": null
+        },
+        {
+            "id": 6,
+            "name": "Data Structures and Algorithms",
+            "issuer": "Udacity",
+            "date": "2019",
+            "credentialId": null,
+            "link": null
+        },
+        {
+            "id": 7,
+            "name": "Computer Vision with OpenCV",
+            "issuer": "OpenCV",
+            "date": "2016",
+            "credentialId": null,
+            "link": null
+        },
+        {
+            "id": 8,
+            "name": "Computer Science & Python",
+            "issuer": "MIT",
+            "date": "2015",
+            "credentialId": null,
+            "link": null
         }
     ],
     "languages": [
         {
             "language": "Spanish",
             "proficiency": "Native",
-            "level": "C2"
+            "level": "Native"
         },
         {
             "language": "English",
-            "proficiency": "Fluent",
-            "level": "C1"
-        },
-        {
-            "language": "Portuguese",
-            "proficiency": "Intermediate",
-            "level": "B2"
+            "proficiency": "Advanced",
+            "level": "Advanced"
         }
     ],
-    "achievements": [
-        {
-            "id": 1,
-            "title": "Best Innovation Award",
-            "organization": "Tech Company Inc.",
-            "date": "2023-12",
-            "description": "Recognized for developing an innovative solution that improved system efficiency by 45%"
-        },
-        {
-            "id": 2,
-            "title": "Hackathon Winner",
-            "organization": "Local Tech Community",
-            "date": "2022-09",
-            "description": "First place in 48-hour hackathon with a machine learning solution for healthcare"
-        }
-    ],
-    "volunteer": [
-        {
-            "id": 1,
-            "organization": "Code for Good",
-            "role": "Volunteer Developer",
-            "startDate": "2021-01",
-            "endDate": null,
-            "current": true,
-            "description": "Develop web applications for non-profit organizations to help them better serve their communities."
-        }
-    ],
+    "achievements": [],
+    "volunteer": [],
     "preferences": {
         "theme": "dark",
         "primaryColor": "#60a5fa",
@@ -339,7 +607,7 @@
         "showFullExperience": true,
         "showEducation": true,
         "showCertifications": true,
-        "showVolunteer": true,
+        "showVolunteer": false,
         "contactFormEnabled": true
     }
 }
