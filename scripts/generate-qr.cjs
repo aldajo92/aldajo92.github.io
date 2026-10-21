@@ -6,7 +6,7 @@ const { contact } = require('../src/data/cv-data.json');
 async function main() {
   const directory = path.join(__dirname, '../public/qr');
   await fs.mkdir(directory, { recursive: true });
-  for (const [name, url] of [['website', contact.website], ['linkedin', contact.social.linkedin], ['whatsapp', contact.social.whatsapp]]) {
+  for (const [name, url] of [['website', contact.website], ['linkedin', contact.social.linkedin], ['whatsapp', contact.social.whatsapp], ['github', contact.social.github]]) {
     if (!url) continue;
     const svg = await QRCode.toString(url, { type: 'svg', errorCorrectionLevel: 'M', margin: 4, width: 240 });
     await fs.writeFile(path.join(directory, `${name}.svg`), svg);

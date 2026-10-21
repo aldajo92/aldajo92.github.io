@@ -15,7 +15,7 @@ function App() {
       <a className="skip-link" href="#about">Skip to content</a>
       <nav className="navbar" aria-label="Main navigation">
         <div className="nav-container">
-          <div className="nav-identity"><a className="logo" href="#home" aria-label="Back to home"><span className="logo-mark">a<span>.</span></span><span>{personalInfo.name}<small>ROBOTICS / SOFTWARE</small></span></a><ContactQr website={contact.website} linkedin={contact.social.linkedin} whatsapp={contact.social.whatsapp} /></div>
+          <div className="nav-identity"><a className="logo" href="#home" aria-label="Back to home"><span className="logo-mark">a<span>.</span></span><span>{personalInfo.name}<small>ROBOTICS / SOFTWARE</small></span></a><ContactQr website={contact.website} linkedin={contact.social.linkedin} whatsapp={contact.social.whatsapp} github={contact.social.github} /></div>
           <button className="menu-toggle" aria-expanded={menuOpen} aria-controls="main-menu" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? "Close −" : "Menu +"}</button>
           <ul id="main-menu" className={`nav-links ${menuOpen ? "is-open" : ""}`} onClick={() => setMenuOpen(false)}>
             <li><a href="#home">Home</a></li>

@@ -1,10 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 
-export default function ContactQr({ website, linkedin, whatsapp }) {
+export default function ContactQr({ website, linkedin, whatsapp, github }) {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState(null);
-  const choices = [{ title: 'Website', url: website, file: 'website.svg' }, { title: 'LinkedIn', url: linkedin, file: 'linkedin.svg' }, ...(whatsapp ? [{ title: 'WhatsApp', url: whatsapp, file: 'whatsapp.svg' }] : [])];
+  const choices = [{ title: 'Website', url: website, file: 'website.svg' }, { title: 'LinkedIn', url: linkedin, file: 'linkedin.svg' }, ...(github ? [{ title: 'GitHub', url: github, file: 'github.svg' }] : []), ...(whatsapp ? [{ title: 'WhatsApp', url: whatsapp, file: 'whatsapp.svg' }] : [])];
   const trigger = useRef(null);
   const panel = useRef(null);
   useEffect(() => {
