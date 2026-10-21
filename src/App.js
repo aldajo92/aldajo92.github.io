@@ -1,16 +1,23 @@
+import { useState } from 'react';
+import AngySimPreview from './AngySimPreview';
+import ContactQr from './ContactQr';
 import './App.css';
 import cvData from './data/cv-data.json';
 
 function App() {
   const { personalInfo, about, contact, skills, experience, education, certifications, projects, languages } = cvData;
 
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <div className="App">
       {/* Navigation */}
-      <nav className="navbar">
+      <a className="skip-link" href="#about">Skip to content</a>
+      <nav className="navbar" aria-label="Main navigation">
         <div className="nav-container">
-          <div className="logo">{personalInfo.name}</div>
-          <ul className="nav-links">
+          <div className="nav-identity"><a className="logo" href="#home" aria-label="Back to home"><span className="logo-mark">a<span>.</span></span><span>{personalInfo.name}<small>ROBOTICS / SOFTWARE</small></span></a><ContactQr website={contact.website} linkedin={contact.social.linkedin} whatsapp={contact.social.whatsapp} /></div>
+          <button className="menu-toggle" aria-expanded={menuOpen} aria-controls="main-menu" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? "Close −" : "Menu +"}</button>
+          <ul id="main-menu" className={`nav-links ${menuOpen ? "is-open" : ""}`} onClick={() => setMenuOpen(false)}>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -22,17 +29,23 @@ function App() {
         </div>
       </nav>
 
+      <main>
       {/* Hero Section */}
       <section id="home" className="hero">
-        <div className="hero-content">
-          <h1>Hello, I'm {personalInfo.fullName}</h1>
-          <p className="subtitle">{personalInfo.title}</p>
-          <p className="description">
-            {personalInfo.heroDescription}
-          </p>
-          <a href="#contact" className="cta-button">Get In Touch</a>
+        <div className="hero-layout">
+          <div className="hero-content">
+            <p className="eyebrow"><span /> ROBOTICS · SIMULATION · SOFTWARE</p>
+            <p className="hero-intro">Hello, I'm Alejandro.</p>
+            <h1>Engineering<br />the <em>physical</em><br />through code<span>.</span></h1>
+            <p className="subtitle">{personalInfo.title}</p>
+            <p className="description">{personalInfo.heroDescription}</p>
+            <div className="hero-actions"><a href="#contact" className="cta-button">Let's connect <span>↗</span></a><a className="text-link" href="#about">Explore my background <span>↓</span></a></div>
+          </div>
+          <AngySimPreview />
         </div>
+        <div className="hero-bottom"><span>{personalInfo.fullName}</span><span>{personalInfo.location}</span><a href="#about">SCROLL TO EXPLORE ↓</a></div>
       </section>
+      <div className="discipline-strip" aria-label="Engineering disciplines"><span>Software meets the physical world</span><span>Robotics</span><i>＋</i><span>Simulation</span><i>＋</i><span>Embedded systems</span></div>
 
       {/* About Section */}
       <section id="about" className="section">
@@ -227,6 +240,7 @@ function App() {
         </div>
       </section>
 
+      </main>
       {/* Footer */}
       <footer className="footer">
         <p>&copy; 2026 {personalInfo.fullName}. Built with React and deployed on GitHub Pages.</p>
